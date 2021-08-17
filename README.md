@@ -12,3 +12,4 @@ geopy
 justpy
 highcharts
 flask
+tkinter

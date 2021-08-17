@@ -13,3 +13,5 @@ justpy
 highcharts
 flask
 tkinter
+sqlite3
+pyscopg2

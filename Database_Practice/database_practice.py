@@ -1,5 +1,5 @@
 #learning to use sqlite3
-import sqlite3
+import sqlite3, psycopg2
 
 # 1. Connect to a database
 # 2. Create a cursor object

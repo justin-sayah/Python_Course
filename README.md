@@ -16,3 +16,4 @@ tkinter
 sqlite3
 pyscopg2
 mysql-connector
+pyinstaller

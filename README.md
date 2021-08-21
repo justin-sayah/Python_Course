@@ -18,3 +18,4 @@ pyscopg2
 mysql-connector
 pyinstaller
 kivy
+opencv_2 (cv2)

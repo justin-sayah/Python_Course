@@ -19,3 +19,4 @@ mysql-connector
 pyinstaller
 kivy
 opencv_2 (cv2)
+bokeh

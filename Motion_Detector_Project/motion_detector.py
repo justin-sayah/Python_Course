@@ -11,15 +11,15 @@ while True:
     #Pulls the first frame from the webcam
     check, frame = video.read()
 
-    #The check to see if the loop is in the first iteration
-    if first_frame is None:
-        first_frame = gray
-        continue
-
     #Converts the frame to gray for easier analysis
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     #Applies Gaussian Blur, which is necessary for motion detection
     gray = cv2.GaussianBlur(gray, (21,21), 0)
+
+    #The check to see if the loop is in the first iteration
+    if first_frame is None:
+        first_frame = gray
+        continue
 
     #Gets a pixel by pixel difference between the current and previous frame, calculates
     #contours and draws a box defined by the contour count

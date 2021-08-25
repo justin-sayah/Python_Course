@@ -46,7 +46,10 @@ while True:
 
     #If the environment status changes, then the entry and exit times are logged in the list
     status = 1
+
     status_list.append(status)
+    status_list = status_list[-2:]
+
     if status_list[-1] == 1 and status_list[-2] == 0:
         times.append(datetime.now())
     if status_list[-1] == 0 and status_list[-2] == 1:
